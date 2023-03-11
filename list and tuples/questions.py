@@ -18,11 +18,16 @@ print(spam[int(int('3' * 2)//11)])
 # displays items of list from 0 to 2
 
 #let's pretend bacon has the list [3.14, 'cat', 11, 'cat', True] for the next three questions, 
+bacon = [3.14, 'cat', 11, 'cat', True]
 
 #6 what does bacon.index('cat') evaluate to?
 #index of cat i.e 1
+bacon.index('cat')
 
 #7. what does bacon.append(99) make the list value in bacon look like?
 # adds 99 to the end of the list
+bacon.append(99)
+
 
 #8. what does bacon.remove('cat') make the list value in bacon look like?
+bacon.remove('cat')
