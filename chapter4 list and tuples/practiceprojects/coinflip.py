@@ -1,7 +1,7 @@
 import random
 occurance = []
 for experimentNumber in range(10000):
-    # Code that creates a list of 100 'heads' or 'tails' values.
+    # Code that creates a list of 1000 'heads' or 'tails' values.
     num = int(random.randint(0, 1))
     if num == 0:
         occurance.append('H')
