@@ -1,2 +1,0 @@
-
-boardPrinter(theBoard)
